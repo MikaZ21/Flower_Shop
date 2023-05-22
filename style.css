@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 /* Sign up - Note: */
 .signUp-container {   
  position: relative;
@@ -13,4 +17,41 @@
 button[type='submit'] {
     background-color: rgb(171, 246, 247);
     border-radius: 5px;
+}
+
+/* Landing page */
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/flowerArrangement2.jpeg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: antiquewhite;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+button.findGift {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
 }
