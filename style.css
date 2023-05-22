@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body, html {
     height: 100%;
 }
@@ -33,6 +37,7 @@ button[type='submit'] {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment: local;
 }
 
 /* Place text in the middle of the image */
@@ -44,14 +49,22 @@ button[type='submit'] {
   transform: translate(-50%, -50%);
   color: antiquewhite;
 }
-
+.hero-text h1 {
+  font-size: 3em;
+}
 .hero-text p {
-    font-size: 20px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
 button.findGift {
-    background-color: antiquewhite;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 15px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1em;
+  color: rgb(0 98 68);
+  border: 5px solid antiquewhite;
+  cursor: pointer;
+  outline: 1.5px solid rgb(43 208 193 / 69%);
+  outline-offset: -5px;
 }
