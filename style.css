@@ -68,3 +68,24 @@ button.findGift {
   outline: 1.5px solid rgb(43 208 193 / 69%);
   outline-offset: -5px;
 }
+
+/* Box */
+.box {
+  height: 50vh;
+  width: 100%;
+    background-image:
+    repeating-linear-gradient(
+      rgb(0, 56, 35) 0,
+      rgb(0, 41, 25) 50px,
+      antiquewhite 50px,
+      antiquewhite 100px,
+      rgb(0, 41, 25) 100px,
+      rgb(0, 41, 25) 150px,
+      antiquewhite 150px,
+      antiquewhite 200px,
+      rgb(0, 41, 25) 200px,
+      rgb(0, 41, 25) 250px,
+      antiquewhite 250px,
+      antiquewhite 300px
+    );
+}
