@@ -90,7 +90,7 @@ button.findGift:hover {
 }
 
 /* Box */
-.box {
+.container {
   height: 50vh;
   width: 100%;
     background-image:
@@ -108,4 +108,30 @@ button.findGift:hover {
       antiquewhite 250px,
       antiquewhite 300px
     );
+  position: relative;
+}
+
+section.content {
+  height: 80%;
+  width: 70%;
+  background-color: rgba(255, 145, 0, 0.749);
+  transform: translateX(50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.whatsHappening {
+  height: 80%;
+  width: 80%;
+  background-color: rgb(199, 223, 220);
+  transform: translateX(50%);
+  position: absolute;
+  border-radius: 5px;
+  color: rgb(0, 41, 25);
+  padding: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
