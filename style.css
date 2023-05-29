@@ -6,9 +6,16 @@ body, html {
     height: 100%;
 }
 
+hr {
+  margin: 1rem;
+}
+
 /* Nav */
 .nav {
+  width: 100%;
   background-color: antiquewhite;
+  position: fixed;
+  z-index: 5;
 }
 
 .nav-bar li {
@@ -115,7 +122,6 @@ section.content {
   height: 80%;
   width: 70%;
   background-color: rgba(255, 145, 0, 0.749);
-  transform: translateX(50%);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -126,7 +132,6 @@ section.content {
   height: 80%;
   width: 80%;
   background-color: rgb(199, 223, 220);
-  transform: translateX(50%);
   position: absolute;
   border-radius: 5px;
   color: rgb(0, 41, 25);
@@ -134,4 +139,14 @@ section.content {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow: scroll;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 5px;
+  color: rgb(0, 41, 25);
+
+}
+
