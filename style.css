@@ -4,6 +4,9 @@
 
 body, html {
     height: 100%;
+    background-color: antiquewhite;
+    color: rgb(0, 41, 25);
+
 }
 
 hr {
@@ -13,32 +16,42 @@ hr {
 /* Nav */
 .nav {
   width: 100%;
-  background-color: antiquewhite;
+  background-color: rgba(250, 235, 215, 0.914);
   position: fixed;
   z-index: 5;
 }
 
 .nav-bar li {
   list-style-type: none;
-  color: rgb(0, 41, 25);
   font-size: 1em;
 }
 
 .nav-bar li a {
   text-decoration: none;
-  color: rgb(0 98 68);
+  color: rgb(0, 41, 25);
 }
 
 /* Sign up - Note: */
+.createAccont {
+  text-align: center;
+  margin: 30px;
+}
+
 .signUp-container {   
  position: relative;
  border: 5px solid ;
- padding: 20px;
- /* border-radius: 20% / 5% 50%; */
+ margin: auto;
+ padding: 50px;
+ font-size: 1.2em;
  text-align: center;
  max-width: 600px;
  border-image-source: linear-gradient(120deg, rgb(157, 219, 219), rgb(2, 67, 68));
  border-image-slice: 1;
+}
+
+button[type='submit'] {
+  background-color: rgb(171, 246, 247);
+  border-radius: 5px;
 }
 
 /* Landing page */
@@ -80,7 +93,9 @@ button.findGift {
   border-radius: 5px;
   padding: 10px 15px;
   font-size: 1em;
-  color: rgb(0 98 68);
+  /* color: rgb(0 98 68); */
+  color: rgb(0, 41, 25);
+
   font-weight: 750;
   border: 5px solid antiquewhite;
   cursor: pointer;
@@ -94,11 +109,12 @@ button.findGift:hover {
   border: 5px solid rgb(0 98 68);
   outline: 1.5px solid antiquewhite;
   transform: scale(1.2);
+  transition: all 0.3s ease-in;
 }
 
 /* Box */
 .container {
-  height: 50vh;
+  height: 95vh;
   width: 100%;
     background-image:
     repeating-linear-gradient(
@@ -142,11 +158,20 @@ section.content {
   overflow: scroll;
 }
 
+/* Gift Scrolling Images */
+.giftScrollImage {
+  height: 70vh;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 6%);
+}
+
+
 /* Footer */
 footer {
   text-align: center;
-  padding: 5px;
   color: rgb(0, 41, 25);
-
+  padding: 30px;
+  margin: 20px;
 }
 
