@@ -159,13 +159,25 @@ section.content {
 }
 
 /* Gift Scrolling Images */
+.imgContent {
+  display: flex;
+}
+
 .giftScrollImage {
   height: 70vh;
   position: relative;
-  left: 50%;
-  transform: translate(-50%, 6%);
+  margin: 2rem;
+  animation: translate-slide 20s ease-in infinite 3s running;
 }
 
+@keyframes translate-slide {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 100%;
+  }
+}
 
 /* Footer */
 footer {
